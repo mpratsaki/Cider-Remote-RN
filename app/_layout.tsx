@@ -11,7 +11,7 @@ import { nextTrack, playPause, previousTrack, seekTo, UpdateNotification } from 
 import { MaterialYouService } from "@assembless/react-native-material-you";
 import { useEffect } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import MusicControl, { Command } from "react-native-music-control";
+import MusicControl, { Command } from "@/lib/music-control";
 import { PaperProvider } from "react-native-paper";
 import { configureReanimatedLogger } from "react-native-reanimated";
 
